@@ -1,18 +1,14 @@
 # PyTactX
-
-Learn Python by playing with an Ova bot in a virtual Arena ⚔️
+Learn Python by playing with an Ova bot in a virtual Arena ⚔️ 
 
 ## ⚙️ Setup
 
 1. Clone this repo
 2. pip install all deps in [the requirement list](requirements.txt)
-
 ```
 pip install paho-mqtt requests python-dotenv pytz pillow
 ```
-
 3. Add a .env file in the root project directory, containing the following credentials. If you don't have any credentials, feel free [to contact us](https://jusdeliens.com/contact) to join the adventure 🚀
-
 ```.env
 # The name of your player or your robot ID as str
 ROBOTID         = ...
@@ -24,14 +20,13 @@ USERNAME        = ...
 PASSWORD        = ...
 # The broker ip address or dns as str
 BROKERADDRESS   = ...
-# The border port as int
+# The border port as int 
 BROKERPORT      = ...
 # Verbosity level as int from 0:no log, to 4: full debug logs)
-VERBOSITY       = ...
+VERBOSITY       = ... 
 ```
 
 4. Then run the main.py with python interpretor (⚠️ at least version 3.9)
-
 ```
 python main.py
 ```
@@ -45,12 +40,9 @@ To see the public arenas in your web browser 🎮, go to the 👉 [Online IDEAL 
 You can also get yourself a real Ova bot to have much more fun and join the next robot challenge with passionate developers all around the world [by clicking here](https://jusdeliens.com/ova).
 
 ## 🧑‍💻 Author
-
 Designed with 💖 by [Jusdeliens Inc.](https://jusdeliens.com)
 
 ## ⚖️ License
-
-Under CC BY-NC 4.0 licence
+Under CC BY-NC 4.0 licence 
 👉 https://creativecommons.org/licenses/by-nc/4.0/deed.en
 
-<img align="center" src="https://github.com/lkReact/python-project/blob/develop/procedural.svg" width="1312"/>

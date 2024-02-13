@@ -1,0 +1,14 @@
+.cache
+cache
+cache/
+caches/
+caches
+.caches
+__pycache__
+__pycache__/
+.__pycache__
+pycache/
+.pycache
+pycache
+build
+builder/
